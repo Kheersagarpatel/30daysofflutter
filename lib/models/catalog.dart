@@ -6,5 +6,16 @@ class Item {
   final String color;
   final String imageUrl;
 
-  Item({this.id, this.name, this.description, this.price, this.color, this.imageUrl});
+  Item({required this.id, required this.name, required this.description, required this.price, required this.color, required this.imageUrl});
 }
+
+final products = [
+  Item(
+    id: "eeaaae1",
+    name: "Linux",
+    description: "Linux OS is a very powerfull for developers, testers, learners, researchers etc. You must Buy It!",
+    price: 1001.11,
+    color: "#33505a",
+    imageUrl: "https://www.vssmonitoring.com/wp-content/uploads/2022/03/thumb-5.jpg",
+  ),
+];
