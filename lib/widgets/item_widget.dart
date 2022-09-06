@@ -13,7 +13,7 @@ class ItemWidget extends StatelessWidget {
       child: Card(
         child: ListTile(
           onTap: (() {
-            print("${item.name}");
+            // print("${item.name}");
           }),
           leading: Image.network(item.image),
           title: Text(item.name),
