@@ -9,12 +9,20 @@
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Tux.svg/1200px-Tux.svg.png"
     },
     {
-      "id": 1,
-      "name": "Linux",
-      "description": "Linux OS is a very powerfull for developers, testers, learners, researchers etc. You must Buy It!",
+      "id": 2,
+      "name": "MacOS",
+      "description": "macOS is a Unix operating system developed and marketed by Apple Inc. since 2001. It is the primary operating system for Apple's Mac computers.",
       "color": "#33505a",
-      "price": 1001.11,
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Tux.svg/1200px-Tux.svg.png"
+      "price": 99,
+      "image": "https://upload.wikimedia.org/wikipedia/en/6/63/MacOS_Big_Sur_Desktop.png"
+    },
+    {
+      "id": 3,
+      "name": "iPhone Ulra Max Pro",
+      "description": "The iPhone is a line of smartphones designed and marketed by Apple Inc. These devices use Apple's iOS mobile operating system.",
+      "color": "#33505a",
+      "price": 999,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/c/c9/IPhone_SE_in_silver.png"
     }
   ]
 }
