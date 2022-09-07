@@ -20,11 +20,11 @@ class MyTheme {
         fontFamily: GoogleFonts.poppins().fontFamily,
         cardColor: Colors.black,
         canvasColor: darkCreamColor,
-        appBarTheme: AppBarTheme(
+        appBarTheme: const AppBarTheme(
           color: Colors.black,
           elevation: 0.0,
-          iconTheme: const IconThemeData(color: Colors.white),
-          titleTextStyle: Theme.of(context).textTheme.headline6,
+          iconTheme: IconThemeData(color: Colors.white),
+          titleTextStyle: TextStyle(color: Colors.white),
         ),
       );
 
