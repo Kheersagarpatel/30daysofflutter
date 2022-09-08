@@ -2,12 +2,10 @@
 import 'dart:convert';
 
 class CatalogModel {
-  // single tone
-  static final catModel = CatalogModel._internal();
-
-  CatalogModel._internal();
-
-  factory CatalogModel() => catModel;
+  // single tone  --> not required because store.dart has something new
+  // static final catModel = CatalogModel._internal();
+  // CatalogModel._internal();
+  // factory CatalogModel() => catModel;
 
   static List<Item> items = [];
 

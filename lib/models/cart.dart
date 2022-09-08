@@ -1,12 +1,10 @@
 import 'package:flutter_catalog/models/catalog.dart';
 
 class CartModel {
-  // single tone
-  static final cartModel = CartModel._internal();
-
-  CartModel._internal();
-
-  factory CartModel() => cartModel;
+  // single tone --> not required because store.dart has something new
+  // static final cartModel = CartModel._internal();
+  // CartModel._internal();
+  // factory CartModel() => cartModel;
 
   // catalog field
   late CatalogModel _catalog;
